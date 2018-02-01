@@ -1,6 +1,6 @@
 {
-  "name": "bitcore-build",
-  "version": "0.9.0",
+  "name": "btq-bitcore-build",
+  "version": "0.9.1",
   "description": "A helper for common tasks to build bitcore modules'",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/bitcore-build"
+    "url": "git://github.com/bitcoinquark/bitcore-build"
   },
   "keywords": [
     "bitcore"
   ],
   "contributors": [
+    {
+      "name": "Lorenzo Bianco",
+      "email": "lorenzo@bitcoinquark.org"
+	},
     {
       "name": "Esteban Ordano",
       "email": "esteban@bitpay.com"
@@ -37,9 +41,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-build/issues"
+    "url": "https://github.com/bitcoinquark/bitcore-build/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcore-build",
+  "homepage": "https://github.com/bitcoinquark/bitcore-build",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
